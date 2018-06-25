@@ -101,7 +101,7 @@ public class Array<E> {
         data[size] = null;// loitering object (ps:!= memory leak)
 
         //缩小容量
-        if (size == data.length / 2) {
+        if (size == data.length / 4 && data.length / 2 != 0) {
             resize(data.length / 2);
         }
         return ret;
