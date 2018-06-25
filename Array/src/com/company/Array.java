@@ -44,11 +44,13 @@ public class Array<E> {
 
     //数组指定位置插入一个新元素
     public void add(int index, E e) {
-        if (size == data.length) {
-            throw new IllegalArgumentException("Add failed,Array is full.");
-        }
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed,index >=0 and index < size.");
+        }
+
+        //如果数组满了 动态增长一倍长度
+        if (size == data.length) {
+            resize(2 * data.length);
         }
 
         for (int i = size - 1; i >= index; i--) {
@@ -56,6 +58,14 @@ public class Array<E> {
         }
         data[index] = e;
         size++;
+    }
+
+    private void resize(int newCapacity) {
+        E[] newData = (E[]) new Object[newCapacity];
+        for (int i = 0; i < size; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
     }
 
     //获取index索引位置元素
@@ -89,6 +99,11 @@ public class Array<E> {
         }
         size--;
         data[size] = null;// loitering object (ps:!= memory leak)
+
+        //缩小容量
+        if (size == data.length / 2) {
+            resize(data.length / 2);
+        }
         return ret;
     }
 
