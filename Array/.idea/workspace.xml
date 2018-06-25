@@ -12,9 +12,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="33">
               <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
@@ -27,6 +28,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+=======
+            <state relative-caret-position="165">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+>>>>>>> parent of 060f1b7... 复杂度分析+均摊复杂度+防止复杂度震荡removeLast缩容处理策略更改
               <folding />
             </state>
           </provider>
@@ -55,8 +60,8 @@
       <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="103" column="59" lean-forward="false" selection-start-line="103" selection-start-column="59" selection-end-line="103" selection-end-column="59" />
+            <state relative-caret-position="228">
+              <caret line="102" column="14" lean-forward="false" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
               <folding>
                 <element signature="e#299#300#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
@@ -70,10 +75,10 @@
                 <element signature="e#631#632#0" expanded="true" />
                 <element signature="e#682#683#0" expanded="true" />
                 <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#2446#2447#0" expanded="true" />
-                <element signature="e#2478#2479#0" expanded="true" />
-                <element signature="e#2525#2526#0" expanded="true" />
-                <element signature="e#2564#2565#0" expanded="true" />
+                <element signature="e#2422#2423#0" expanded="true" />
+                <element signature="e#2454#2455#0" expanded="true" />
+                <element signature="e#2501#2502#0" expanded="true" />
+                <element signature="e#2540#2541#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,9 +105,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/复杂度相关分析" />
         <option value="$PROJECT_DIR$/src/com/company/Array.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -113,8 +117,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="482" />
     <option name="y" value="339" />
+=======
+    <option name="x" value="901" />
+    <option name="y" value="151" />
+>>>>>>> parent of 060f1b7... 复杂度分析+均摊复杂度+防止复杂度震荡removeLast缩容处理策略更改
     <option name="width" value="1206" />
     <option name="height" value="730" />
   </component>
@@ -271,7 +280,11 @@
       <option name="presentableId" value="Default" />
       <updated>1529894121788</updated>
       <workItem from="1529894125201" duration="6769000" />
+<<<<<<< HEAD
       <workItem from="1529906980918" duration="6112000" />
+=======
+      <workItem from="1529906980918" duration="2587000" />
+>>>>>>> parent of 060f1b7... 复杂度分析+均摊复杂度+防止复杂度震荡removeLast缩容处理策略更改
     </task>
     <task id="LOCAL-00001" summary="数组">
       <created>1529907127999</created>
@@ -294,21 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529911005686</updated>
     </task>
-    <task id="LOCAL-00004" summary="Array -">
-      <created>1529913711625</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1529913711625</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="482" y="339" width="1206" height="730" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="9356000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="901" y="151" width="1206" height="730" extended-state="0" />
+>>>>>>> parent of 060f1b7... 复杂度分析+均摊复杂度+防止复杂度震荡removeLast缩容处理策略更改
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -318,7 +331,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38808373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38808373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of 060f1b7... 复杂度分析+均摊复杂度+防止复杂度震荡removeLast缩容处理策略更改
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -349,8 +366,7 @@
     <MESSAGE value="数组" />
     <MESSAGE value="Array - 支持泛型" />
     <MESSAGE value="Array - 动态数组实现" />
-    <MESSAGE value="Array -" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array -" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array - 动态数组实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -390,10 +406,10 @@
             <element signature="e#631#632#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
             <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#2446#2447#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+            <element signature="e#2501#2502#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -402,14 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25344">
           <caret line="819" column="16" lean-forward="false" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -424,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="103" column="59" lean-forward="false" selection-start-line="103" selection-start-column="59" selection-end-line="103" selection-end-column="59" />
+        <state relative-caret-position="228">
+          <caret line="102" column="14" lean-forward="false" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
           <folding>
             <element signature="e#299#300#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
@@ -439,18 +447,23 @@
             <element signature="e#631#632#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
             <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#2446#2447#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+            <element signature="e#2501#2502#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/复杂度相关分析">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="198">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+=======
+        <state relative-caret-position="165">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+>>>>>>> parent of 060f1b7... 复杂度分析+均摊复杂度+防止复杂度震荡removeLast缩容处理策略更改
           <folding />
         </state>
       </provider>
