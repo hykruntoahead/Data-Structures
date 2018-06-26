@@ -6,4 +6,6 @@
 
 2---Stack- 栈（FILO） push pop 等 实例：使用栈实现括号匹配判断
 
-3---Queue- 队列(FIFO) enqueue dequeue操作等 ；数组链表和循环链表实现
+3---Queue- 队列(FIFO) enqueue dequeue操作等 ；数组队列和循环队列实现
+
+4---LinkedList- 链表   增删改查等 虚拟头结点
