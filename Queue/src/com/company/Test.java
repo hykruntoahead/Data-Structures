@@ -14,7 +14,7 @@ public class Test {
      System.out.println("LoopQueue ,time: "+time2 +"s");
     }
 
-    //测试使用queue运行opcount个enqueue和dequeue操作所需要的时间
+    //测试使用queue运行opCount个enqueue和dequeue操作所需要的时间
     private static double testQueue(Queue<Integer> queue,int opCount){
         long startTime = System.nanoTime();
         Random random = new Random();
