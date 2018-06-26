@@ -27,11 +27,12 @@ public class LinkedList<E> {
         }
     }
 
-    private Node head;
+    //虚拟头结点
+    private Node dummyHead;
     int size;
 
     public LinkedList() {
-        head = null;
+        dummyHead = new Node(null, null);
         size = 0;
     }
 
@@ -49,8 +50,7 @@ public class LinkedList<E> {
 //        Node node = new Node(e);
 //        node.next = head;
 //        head = node;
-        head = new Node(e, head);
-        size++;
+        add(0, e);
     }
 
     //在链表index位置添加元素e（顺序很重要）
@@ -60,20 +60,16 @@ public class LinkedList<E> {
             throw new IllegalArgumentException("Add Failed." +
                     "Illegal index");
         }
-        if (index == 0) {
-            addFirst(e);
-        } else {
-            Node prev = head;
-            for (int i = 0; i < index - 1; i++) {
-                prev = prev.next;
-            }
+        Node prev = dummyHead;
+        for (int i = 0; i < index; i++) {
+            prev = prev.next;
+        }
 //            Node node = new Node(e);
 //            node.next = prev.next;
 //            prev.next = node;
 
-            prev.next = new Node(e, prev.next);
-            size++;
-        }
+        prev.next = new Node(e, prev.next);
+        size++;
     }
 
     public void addLast(E e) {
