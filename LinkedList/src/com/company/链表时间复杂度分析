@@ -1,0 +1,13 @@
+@Add :
+    -addLast(e)          O(n)
+    -addFirst(e)         O(1)
+    -add(index,e)        O(n/2) = O(n)
+@Remove:
+    -removeLast(e)          O(n)
+    -removeFirst(e)         O(1)
+    -remove(index,e)        O(n/2) = O(n)
+@Set:
+    -set(index,e)           O(n)
+@Search:
+    -get(index)             O(n)
+    -contains(e)            O(n)
