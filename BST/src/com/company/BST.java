@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Stack;
+
 //二分搜索树(这里实现不包含重复元素  关注递归实现)
 public class BST<E extends Comparable<E>> {
     private class Node {
@@ -69,7 +71,7 @@ public class BST<E extends Comparable<E>> {
             return contains(node.right, e);
     }
 
-    //前序遍历
+    //前序遍历（递归实现）
     public void preOrder() {
         preOrder(root);
     }
@@ -86,13 +88,27 @@ public class BST<E extends Comparable<E>> {
         preOrder(node.right);
     }
 
+    //前序遍历（非递归实现）
+    public void preOrderNR() {
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.empty()) {
+            Node cur = stack.pop();
+            System.out.println(cur.e);
+            if (cur.right != null)
+                stack.push(cur.right);
+            if (cur.left != null)
+                stack.push(cur.left);
+        }
+    }
+
     //中序遍历
-    public void inOrder(){
+    public void inOrder() {
         inOrder(root);
     }
 
-    private void inOrder(Node node){
-        if(node == null){
+    private void inOrder(Node node) {
+        if (node == null) {
             return;
         }
 
@@ -103,12 +119,12 @@ public class BST<E extends Comparable<E>> {
 
 
     //后序遍历
-    public void postOrder(){
+    public void postOrder() {
         postOrder(root);
     }
 
-    private void postOrder(Node node){
-        if(node == null){
+    private void postOrder(Node node) {
+        if (node == null) {
             return;
         }
 
