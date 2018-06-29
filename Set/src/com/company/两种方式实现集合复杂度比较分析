@@ -1,0 +1,6 @@
+             LinkedListSet        BSTSet       平均      最差
+add              O(n)              O(h)       O(logn)    O(n)
+
+contains         O(n)              O(h)       O(logn)    O(n)
+
+remove           O(n)              O(h)       O(logn)    O(n)
