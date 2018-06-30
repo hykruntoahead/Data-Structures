@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
+//有序映射
 public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
     private class Node {
         public K key;

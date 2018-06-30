@@ -1,0 +1,10 @@
+               LinkedListMap       BSTMap   平均       最坏情况
+add             O(n)               O(h)    O(logn)      O(n)
+
+remove          O(n)               O(h)    O(logn)      O(n)
+
+set             O(n)               O(h)    O(logn)      O(n)
+
+get             O(n)               O(h)    O(logn)      O(n)
+
+contains        O(n)               O(h)    O(logn)      O(n)
