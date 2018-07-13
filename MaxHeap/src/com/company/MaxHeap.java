@@ -40,7 +40,7 @@ public class MaxHeap<E extends Comparable<E>> {
     }
 
 
-    //相对中添加元素
+    //向堆中添加元素
     public void add(E e) {
         data.addLast(e);
         siftUp(data.getSize() - 1);
@@ -55,8 +55,39 @@ public class MaxHeap<E extends Comparable<E>> {
         }
     }
 
+    //看堆中的最大元素
+    public E findMax() {
+        if (data.getSize() == 0) {
+            throw new IllegalArgumentException("cannot find max when heap is empty");
+        }
+        return data.get(0);
+    }
 
-    
+    //取出堆中的最大元素
+    public E extractMax() {
+        E ret = findMax();
+        data.swap(0, data.getSize() - 1);
+        data.removeLast();
+        siftDown(0);
+        return ret;
+    }
+
+    //下沉
+    private void siftDown(int k) {
+        while (leftChild(k) < data.getSize()) {
+            int j = leftChild(k);
+            if (j + 1 < data.getSize()
+                    && data.get(j + 1).compareTo(data.get(j)) > 0) {
+                j = rightChild(k);
+                //data[j] 是左右孩子的最大值
+            }
+            if (data.get(k).compareTo(data.get(j)) > 0) {
+                break;
+            }
+            data.swap(k, j);
+            k = j;
+        }
+    }
 
 
 }
