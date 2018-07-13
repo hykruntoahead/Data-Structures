@@ -39,7 +39,7 @@
               基于二分搜索树实现Map ---> BSTMap
              
 9---MaxHeap- 最大堆 add，extractMax,replace,heapify
-             基于堆实现优先队列
+             &基于堆实现优先队列
              
              堆属于完全二叉树；
              堆中任意节点值>=孩子节点值（最大堆）              
