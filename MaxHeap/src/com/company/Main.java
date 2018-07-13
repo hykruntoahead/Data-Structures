@@ -36,7 +36,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int n = 4000000;
+        int n = 3000000;
         Integer[]  testData = new Integer[n];
         Random random = new Random();
         for (int i = 0; i < n; i++) {
