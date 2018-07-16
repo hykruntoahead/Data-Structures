@@ -46,4 +46,4 @@
 
              leedcode_347. 前K个高频元素;
             
-10---SegmentTree-  线段树(区间树)
+10---SegmentTree-  线段树(区间树) query，
