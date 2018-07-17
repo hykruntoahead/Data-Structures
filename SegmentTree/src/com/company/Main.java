@@ -15,6 +15,6 @@ public class Main {
 //        System.out.println("segmentTree = " + segmentTree);
 
         System.out.println(segmentTree.query(0,2));
-        System.out.println(segmentTree.query(2,5));
+        System.out.println(segmentTree.query(3,5));
     }
 }
