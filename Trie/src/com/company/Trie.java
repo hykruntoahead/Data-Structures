@@ -30,8 +30,8 @@ public class Trie {
         return size;
     }
 
+    // 向Trie中添加一个新的单词word
     public void add(String word) {
-
         Node cur = root;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
@@ -45,7 +45,7 @@ public class Trie {
             size++;
         }
     }
-
+    // 查询单词word是否在Trie中
     public boolean contains(String word) {
         Node cur = root;
         for (int i = 0; i < word.length(); i++) {
@@ -58,6 +58,17 @@ public class Trie {
         return cur.isWord;
     }
 
-
+    //Trie中有单词以prefix为前缀
+    public boolean isPrefix(String prefix) {
+        Node cur = root;
+        for (int i = 0; i < prefix.length(); i++) {
+            char c = prefix.charAt(i);
+            if (cur.next.get(c) == null) {
+                return false;
+            }
+            cur = cur.next.get(c);
+        }
+        return true;
+    }
 
 }
