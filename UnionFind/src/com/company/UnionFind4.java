@@ -1,17 +1,17 @@
 package com.company;
 
-//UnionFind3  2版的size优化
-public class UnionFind3 implements UF {
+//UnionFind4  2版的rank优化
+public class UnionFind4 implements UF {
 
     private int[] parent;
-    private int[] sz; //sz[i] 表示以i为根的集合中元素个数
+    private int[] rank; //rank[i] 表示以i为根的集合所表示的树的层数
 
-    public UnionFind3(int size) {
+    public UnionFind4(int size) {
         parent = new int[size];
-        sz = new int[size];
+        rank = new int[size];
         for (int i = 0; i < size; i++) {
             parent[i] = i;
-            sz[i] = 1;
+            rank[i] = 1;
         }
     }
 
@@ -30,13 +30,14 @@ public class UnionFind3 implements UF {
             return;
         }
 
-        //基于size 优化
-        if (sz[pRoot] < sz[qRoot]) {
+        //基于rank 优化
+        if (rank[pRoot] < rank[qRoot]) {
             parent[pRoot] = qRoot;
-            sz[qRoot] += sz[pRoot];
+        } else if (rank[pRoot] > rank[qRoot]) {
+            parent[qRoot] = pRoot;
         } else {
             parent[qRoot] = pRoot;
-            sz[pRoot] += sz[qRoot];
+            rank[pRoot] += 1;
         }
     }
 
