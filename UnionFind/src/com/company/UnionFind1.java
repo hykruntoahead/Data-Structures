@@ -1,6 +1,6 @@
 package com.company;
 
-//第一版 UnionFind
+//第一版 UnionFind  --> Quick Find
 public class UnionFind1 implements UF {
     private int[] id;
 
